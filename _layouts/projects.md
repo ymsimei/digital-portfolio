@@ -8,7 +8,7 @@
 </div>
 <nav>
   <h2>Antonio Mistretta</h2>
-  <a class="active" href="projects">Projects</a>
+  <a class="active" href="{{ site.url }}">Projects</a>
   <a href="projects">Process</a>
   <a href="projects">Persepective</a>
 </nav>
