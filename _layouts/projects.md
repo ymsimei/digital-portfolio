@@ -6,8 +6,17 @@
     <h1 class="animate-3">But you can call me Tony.</h1>
   </div>
 </div>
-<!-- {% for project in site.projects %}
-  <h1>Project</h1>
-  <a href="{{ project.permalink }}">Link</a>
-{% endfor %} -->
-<script src="{{ project.url }}/assets/scripts/welcome.js"></script>
+<nav>
+  <h2>Antonio Mistretta</h2>
+  <a class="active" href="projects">Projects</a>
+  <a href="projects">Process</a>
+  <a href="projects">Persepective</a>
+</nav>
+<div class="container">
+  {% for project in site.projects %}
+    <div class="project" style="background: url({{ site.url }}/{{ project.background }})" onclick="window.location = '{{ site.url }}/{{ project.permalink }}';">
+      <img class="text" src="{{ site.url }}/{{ project.text }}" />
+      <img class="screen" src="{{ site.url }}/{{ project.screen }}" />
+    </div>
+  {% endfor %}
+</div>
