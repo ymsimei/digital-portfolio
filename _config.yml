@@ -9,3 +9,5 @@ markdown: kramdown
 collections:
   projects:
     output: true
+  persepectives:
+    output: true
