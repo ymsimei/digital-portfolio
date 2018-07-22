@@ -1,20 +1,39 @@
 ---
 title: "Parity Partners"
-permalink: ./projects/paritypartners
-link: "projects/paritypartners"
+description: "Using research and design, my team and I delivered a design for a website to enable user driven coalescing."
+tags:
+permalink: ./projects/:title/
+thumbnail: ./assets/projects/paritypartners/thumbnail.jpg
 layout: project
-text: "assets/projects/classpass/text.png"
-screen: "assets/projects/classpass/screen.png"
-background: "assets/projects/classpass/background.jpg"
+tags: [ux, desktop, research]
 ---
 <div class="container">
-  <h2>Background</h2>
+  <h2>Company Background</h2>
   <p>
-    Myself and two others were tasked with building a new feature into ClassPass’s mobile app. For those unaware, ClassPass is a fitness membership that allows its users to choose from a wide variety of gyms and studios, ranging from yoga/pilates to spin classes. Users spend in-app credits in order to book classes.
+    Parity Partners is a “for profit, for good” company dedicated to building the next generation of women in leaderships positions through advocacy, education, and recruitment.
+    Founded in 2016, Parity Partners has grown exponentially since its inception; increasing its membership from 300 members in its first year to 600 members, currently.
+    Through their Parity Professional Program (P3), they hope to foster a network of women who will champion efforts for increased diversity, inclusion and equity within venture capital and technology industries.
   </p>
   <p>
-    In this project, I took on the roles of User Researcher and Interface Designer.
+    The goal of our user experience design team was to highlight the processes utilized in the evaluation of the user experience of Parity Partner’s Parity Professional Program (P3).
   </p>
+  <p>
+    To that end, our team applied the following research methods to this assessment:
+  </p>
+  <ul>
+    <li>
+      Business competitive and comparative matrices to provide an assessment of the current landscape of organizations which professional development for women
+    </li>
+    <li>
+      Business competitive and comparative feature analyses to identify key features of organizations structure, event components, and benefits
+    </li>
+    <li>
+      User interviews to understand the motivations and behaviors of current P3 participants
+    </li>
+    <li>
+      Research to design using research insights to inform the design process
+    </li>
+  </ul>
   <hr>
   <h2>Screener Survey</h2>
   <p>

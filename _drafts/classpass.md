@@ -1,11 +1,11 @@
 ---
-title: "ClassPass Feature Integration"
-permalink: ./projects/classpass
-link: "projects/classpass"
+title: "Parity Partners"
+description: "Using research and design, my team and I delivered a design for a website to enable user driven coalescing."
+tags:
+permalink: ./projects/:title/
+thumbnail: ./assets/projects/paritypartners/thumbnail.jpg
 layout: project
-text: "assets/projects/classpass/text.png"
-screen: "assets/projects/classpass/screen.png"
-background: "assets/projects/classpass/background.jpg"
+tags: [ux, desktop, research]
 ---
 <div class="container">
   <h2>Background</h2>
