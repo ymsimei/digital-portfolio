@@ -17,7 +17,7 @@
           </span>
         </div>
         <div class="thumbnail">
-          <img src="{{ project.thumbnail }}"></img>
+          <img src="{{ project.thumbnail }}"/>
         </div>
       </div>
     {% endfor %}
