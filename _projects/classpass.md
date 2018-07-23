@@ -1,11 +1,10 @@
 ---
-title: "Parity Partners"
-description: "Using research and design, my team and I delivered a design for a website to enable user driven coalescing."
-tags:
+title: "ClassPass"
+description: "Assessing opportunities for a mobile application."
 permalink: ./projects/:title/
-thumbnail: ./assets/projects/paritypartners/thumbnail.jpg
+thumbnail: ./assets/projects/classpass/thumbnail.jpg
 layout: project
-tags: [ux, desktop, research]
+tags: [ux, mobile, design]
 ---
 <div class="container">
   <h2>Background</h2>
@@ -15,7 +14,6 @@ tags: [ux, desktop, research]
   <p>
     In this project, I took on the roles of User Researcher and Interface Designer.
   </p>
-  <hr>
   <h2>Screener Survey</h2>
   <p>
     My group and I initially put together a list of questions to send out in order to identify people who would be able to provide us with meaningful insight into their exercise habits. The key questions from that survey included how many people they worked out with and how often. From this we identified 10 users to interview prior to feature ideation.
@@ -82,7 +80,6 @@ tags: [ux, desktop, research]
   <p>
     People who workout want to grow their community and find a support system. How might we incentivize users to connect with others and provide workout support and motivation for each other?
   </p>
-  <hr>
   <h2>Ideation</h2>
   <p>
     With a strong idea of our personas, we moved into design studio. Design studio is a great way to collaborate and share ideas in a group setting. We did two rounds of design studio, focusing on each of our personas. We presented our ideas to the group and picked out what we felt were the “best” ideas.
@@ -171,7 +168,6 @@ tags: [ux, desktop, research]
     <li>Move share icon to ClassPass’s original location on class page screen</li>
     <li>Class page — visual that you already booked that class</li>
   </ul>
-  <hr>
   <h2>Final Prototype</h2>
   <p>
     After these rounds of testing and iterations, we created our hi-fi prototype. Check it out and see if you can complete the four tasks.

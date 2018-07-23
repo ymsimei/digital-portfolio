@@ -1,7 +1,6 @@
 ---
 title: "Parity Partners"
 description: "Using research and design, my team and I delivered a design for a website to enable user driven coalescing."
-tags:
 permalink: ./projects/:title/
 thumbnail: ./assets/projects/paritypartners/thumbnail.jpg
 layout: project
