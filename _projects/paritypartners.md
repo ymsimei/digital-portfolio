@@ -47,5 +47,44 @@ tags: [ux, desktop, research]
     The x-axis represents the emphasis each company’s business model places on social networking and/or professional development while the y-axis represents how inclusive of exclusion the organization is based upon admission criteria, membership fees, and niche.
     Using the below matrix, our team discovered that Parity Partners provided a more exclusion experience for members which focused mainly on professional development.
   </p>
-  <img src="/assets/projects/paritypartners/CompetitiveFeatures.png"/>
+  <img src="/assets/projects/paritypartners/compet.png"/>
+  <p>
+    The organizations in the below comparative matrix, while not direct competitors to Parity Partners, provide professional and/or social networking opportunities.
+    Using the below matrix, our team discovered that Business Network International (BNI) provides a provides a similar membership experience to Parity Partners.
+  </p>
+  <img src="/assets/projects/paritypartners/compet.png"/>
+  <p>
+    Our team conducted a competitive feature analysis to determine the strengths and weaknesses of Parity Partner’s competitors in order to strategize ways that will provide Parity Partners with a distinct advantage and address barriers that may hinder Parity Partners growth within this market.
+    Our team completed an initial scan of each website to identify features for this assessment: membership fees, professional meetings, social events, member meetings, online events, free workshops, job boards, articles, podcasts, video, career coaching, and donation buttons.
+  </p>
+  <img src="/assets/projects/paritypartners/competitiveFeatures.png"/>
+  <h2>User Research</h2>
+  <p>
+    Five interviews were conducted with members of the P3 to better uncover their preferences for engagement with professional development programming, their motivations for joining and continuing membership in the P3 program, and to identify areas for improvement for their member experience.
+    Upon completion of the interviews, our team synthesized the results in order to identify pattens in the responses to help guide our recommendations.
+    These insights are below:
+  </p>
+  <ul>
+    <li>
+      Users engage with a mix of online and offline professional development content, with a preference for offline content (i.e. meeting, events)
+    </li>
+    <li>
+      Users would like to develop community within pods through shared experience, goals, and professional development life stages
+    </li>
+    <li>
+      Users identified that pod leaders who are engaged, dedicated and serve as mentors to the group make them feel more encouraged
+    </li>
+    <li>
+      Clarity around the selection criteria for both the P3 admissions process and P3 pods would increase member compatibility and retention within pods
+    </li>
+    <li>
+      Users would like the to accomplish shared goals within their pod meetings
+    </li>
+    <li>
+      Users become frustrated with complicated scheduling and inconsistent attendance within pods
+    </li>
+  </ul>
+  <p>
+    The patterned findings listed above will help inform Parity Partners and our UX design team in order to amplify successful aspects of the program and find ways to reduce user pain points.
+  </p>
 </div>
