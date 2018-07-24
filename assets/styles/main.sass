@@ -2,10 +2,9 @@
 ---
 
 // COLORS
-$black: #000
-$gold: #ffcc00
-$white: #fff
-$lightBlack: #555
+$primary: #000
+$secondary: #555
+$accent: #ffcc00
 
 *
   margin: 0px
@@ -21,26 +20,26 @@ h1
   font-family: "Europa", sans-serif
   font-size: 48px
   font-weight: 700
-  color: $black
+  color: $primary
   margin: 0px 0px 20px 0px
 
 h2
   font-family: "Europa", sans-serif
   font-size: 36px
   font-weight: 700
-  color: $black
+  color: $primary
   margin: 12px 0px
 
 p
   font-family: "Europa", sans-serif
   font-size: 18px
   font-weight: 400
-  color: $black
+  color: $primary
   margin: 0px 0px 20px 0px
   &.tag
     display: inline
-    color: $gold
-    border: 1px $gold solid
+    color: $accent
+    border: 1px $accent solid
     border-radius: 5px
     padding: 5px 8px
 
@@ -48,16 +47,18 @@ a
   font-family: "Europa", sans-serif
   font-size: 18px
   font-weight: 300
-  color: $lightBlack
+  color: $secondary
   margin: 0px 20px 0px 0px
   text-decoration: none
   transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+  &:hover
+    cursor: pointer
   &.active
     font-weight: 400
-    color: $black
+    color: $primary
   &.btn
-    background-color: $gold
-    color: $black
+    background-color: $accent
+    color: $primary
     font-weight: 700
     padding: 12px 18px
     position: relative
@@ -78,6 +79,10 @@ a
   .thumbnail img
     width: 100%
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    &:hover
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  span
+    margin-bottom: 50px
 
 .case
   img
@@ -95,9 +100,23 @@ a
       font-family: "Europa", sans-serif
       font-size: 18px
       font-weight: 400
-      color: $black
+      color: $primary
       margin: 0px 0px 10px 0px
 
+#header
+  height: 300px
+  background-size: cover
+  background-position: center
+  background-attachment: fixed
+  display: flex
+  align-items: center
+  justify-content: center
+  h1
+    background-color: $primary
+    color: $accent
+    padding: 15px 20px
+    margin: 0px 10px
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
 
 @media screen and (max-width: 980px)
   .container
@@ -110,3 +129,5 @@ a
     max-width: 300px
     padding: 0px 10px
     margin: 50px auto
+  .project
+    grid-template-columns: 1fr

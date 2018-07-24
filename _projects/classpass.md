@@ -1,12 +1,12 @@
 ---
-title: "ClassPass"
+title: "ClassPass Feature Integration"
 description: "Assessing opportunities for a mobile application."
 permalink: ./projects/:title/
-thumbnail: ./assets/projects/classpass/thumbnail.jpg
+thumbnail: /assets/projects/classpass/thumbnail.jpg
 layout: project
 tags: [ux, mobile, design]
 ---
-<div class="container">
+<div class="container case">
   <h2>Background</h2>
   <p>
     Myself and two others were tasked with building a new feature into ClassPass’s mobile app. For those unaware, ClassPass is a fitness membership that allows its users to choose from a wide variety of gyms and studios, ranging from yoga/pilates to spin classes. Users spend in-app credits in order to book classes.
