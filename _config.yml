@@ -11,3 +11,4 @@ collections:
     output: true
   persepectives:
     output: true
+include: ['_pages']

@@ -1,53 +1,31 @@
 {% include head.md %}
 <body id="body">
   {% include nav.md %}
-  <div class="container">
-    <span id="projects">
-    {% for project in site.projects %}
-      <div class="project">
-        <div class="description">
-          <span>
-            <h1>{{ project.title }}</h1>
-            <p>{{ project.description }}</p>
-            {% for tag in project.tags %}
-              <p class="tag">{{ tag }}</p>
-            {% endfor %}
-          </span>
-          <span>
-            <a class="btn" href="{{ project.url }}">See Project</a>
-          </span>
-        </div>
-        <div class="thumbnail">
-          <a href="{{ project.url }}">
-            <img src="{{ project.thumbnail }}"/>
-          </a>
-        </div>
-      </div>
-    {% endfor %}
-    </span>
-    <span id="perspectives">
-    {% for persepective in site.persepectives %}
-      <div class="project">
-        <div class="description">
-          <span>
-            <h1>{{ persepective.title }}</h1>
-            <p>{{ persepective.description }}</p>
-            {% for tag in persepective.tags %}
-              <p class="tag">{{ tag }}</p>
-            {% endfor %}
-          </span>
-          <span>
-            <a class="btn" href="{{ persepective.url }}">See Project</a>
-          </span>
-        </div>
-        <div class="thumbnail">
-          <img src="{{ persepective.thumbnail }}"/>
-        </div>
-      </div>
-    {% endfor %}
-    </span>
+  <header>
+    <div class="container">
+      <h1 class="swing">🖖</h1><h1>Hello world.</h1>
+      <h3>My name is Antonio Mistretta.</h3>
+    </div>
+  </header>
+  <div id="projects" class="container">
+  {% for project in site.projects %}
+    <a href="{{ project.permalink }}">
+    <div class="project">
+      <div class="thumbnail" style="background-image: url({{ project.thumbnail }})"></div>
+      <span class="project-flex">
+        <span>
+          <h2>{{ project.title }}</h2>
+          <p>{{ project.description }}</p>
+        </span>
+        <span class="tags">
+          {% for tag in project.tags %}
+          <p>{{ tag }}</p>
+          {% endfor %}
+        </span>
+      </span>
+    </div>
+    </a>
+  {% endfor %}
   </div>
   {% include footer.md %}
-  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-  <script src="./assets/scripts/cookie.js"></script>
 </body>
