@@ -1,14 +1,8 @@
-title: Tailored by Tony
-email: ymsimei@gmail.com
-url: "http://tailoredbytony.com"
-twitter_username: ymsimei
-github_username:  ymsimei
-
 # Build settings
 markdown: kramdown
+include: ['styles', 'scripts']
 collections:
-  projects:
+  works:
     output: true
   persepectives:
     output: true
-include: ['_pages']

@@ -1,4 +1,0 @@
----
-layout: process
-permalink: /process/
----

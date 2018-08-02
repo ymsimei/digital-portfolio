@@ -1,0 +1,325 @@
+---
+---
+
+// BASE STYLES //
+
+*
+  margin: 0px
+  padding: 0px
+  box-sizing: content-box
+
+.wrap
+  padding: 45px 0px
+
+.container
+  max-width: 960px
+  margin: 0px auto
+  padding: 0px 10px
+
+h1, h2, h3, p, a
+  font-family: "Europa", sans-serif
+  color: black
+
+h1, h2
+  font-weight: 700
+
+h1
+  font-size: 48px
+  line-height: 48px
+  margin: 15px 0px
+
+h2
+  font-size: 36px
+  line-height: 36px
+  margin: 10px 0px
+
+h3
+  font-size: 28px
+  line-height: 28px
+  margin: 15px 0px
+  font-weight: 400
+
+p
+  font-family: "Europa", sans-serif
+  font-size: 18px
+  line-height: 18px
+  font-weight: 400
+  margin: 10px 0px
+
+a
+  font-size: 18px
+  line-height: 18px
+  font-weight: 400
+  text-decoration: none
+
+hr
+  margin: 45px auto
+  border: none
+  height: 5px
+  width: 70px
+  background-color: #fc0
+
+// NAV STYELS //
+
+nav
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 2
+  background-color: rgba(255,255,255,0)
+  transition: all 0.3s ease-out
+  .container
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+  .links a
+    padding: 20px 0px 19px 0px
+    margin-left: 20px
+    display: inline-block
+    transition: all 0.1s linear
+    border-bottom: 0px solid #ffcc00
+    &.active, &:hover
+      padding-bottom: 16px
+      border-bottom: 3px solid #ffcc00
+  .logo
+    font-size: 20px
+    font-weight: 700
+    padding: 21px 20px 21px 0px
+
+nav.nav-light a
+  color: white
+
+nav.opaque
+  background-color: rgba(255,255,255,1)
+  box-shadow: 0 15px 25px rgba(0,0,0,0.05)
+  a
+    color: black
+
+// HEADER STYLES //
+
+.header.wrap
+  height: 300px
+  margin-top: 60px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  text-align: center
+  h1
+    display: inline-block
+    margin: 15px 5px
+
+.swing
+  animation: swing 2s infinite
+
+@keyframes swing
+  20%
+    -webkit-transform: rotate3d(0, 0, 1, 15deg)
+    transform: rotate3d(0, 0, 1, 15deg)
+  40%
+    -webkit-transform: rotate3d(0, 0, 1, -10deg)
+    transform: rotate3d(0, 0, 1, -10deg)
+  60%
+    -webkit-transform: rotate3d(0, 0, 1, 5deg)
+    transform: rotate3d(0, 0, 1, 5deg)
+  80%
+    -webkit-transform: rotate3d(0, 0, 1, -5deg)
+    transform: rotate3d(0, 0, 1, -5deg)
+  to
+    -webkit-transform: rotate3d(0, 0, 1, 0deg)
+    transform: rotate3d(0, 0, 1, 0deg)
+
+// PROJECTS STYELS //
+
+.projects-grid
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  column-gap: 20px
+  grid-column-gap: 20px
+  grid-row-gap: 30px
+  a
+    height: 100%
+  .project
+    box-shadow: 0 14px 26px rgba(0,0,0,0.04)
+    transition: all 0.3s ease-out
+    height: 100%
+    overflow: hidden
+    .thumbnail
+      height: 200px
+      background-size: cover
+      background-position: center
+      z-index: 0
+    .project-flex
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      z-index: 1
+    img
+      width: 200%
+      height: 200px
+      object-fit: cover
+    h2
+      margin: 20px
+      line-height: 48px
+    p
+      margin: 20px
+      margin-bottom: 0px
+      line-height: 28px
+    .tags
+      margin: 20px
+      p
+        display: inline-block
+        padding: 3px 8px
+        border-radius: 5px
+        border: 1px #fc0 solid
+        margin: 0 10px 0 0
+    &:hover
+      transform: translateY(-10px) scale(1.005) translateZ(0)
+      box-shadow: 0 24px 36px rgba(75, 75, 75, .3)
+
+// PROCESS STYLES //
+
+#process
+  margin-top: 150px
+  h1
+    text-align: center
+    margin-bottom: 25px
+  p
+    text-align: center
+  img
+    width: 100%
+    margin: 50px 0px
+
+// PROJECT STYLES //
+
+#hero
+  height: 400px
+  background-position: center
+  background-size: cover
+
+.btn
+  font-size: 22px
+  font-weight: 700
+  padding: 12px 10px
+  border-radius: 5px
+  color: white
+  &.disabled
+    opacity: 0.3
+    &:hover
+      cursor: default
+
+.overview .container
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  column-gap: 20px
+  div
+    text-align: center
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+.brief .container
+  max-width: 600px
+  text-align: center
+  h1
+    color: white
+    font-size: 40px
+    margin-bottom: 25px
+  p
+    font-size: 20px
+    line-height: 30px
+    color: white
+
+.article .container .row
+  display: grid
+  grid-template-columns: 1fr 2fr
+  column-gap: 20px
+  grid-row-gap: 100px
+  margin-top: 50px
+  h3
+    margin-top: 30px
+  h2
+    line-height: 50px
+    position: relative
+    top: 5px
+  p
+    line-height: 28px
+  p.quote
+    text-align: center
+    margin: 50px 20px
+    font-size: 22px
+  ul
+    margin: 5px 0px 20px 18px
+    li
+      font-family: "Europa", sans-serif
+      font-size: 18px
+      line-height: 18px
+      font-weight: 400
+      color: black
+      line-height: 30px
+  .btn
+    text-align: center
+    display: block
+    margin: 25px 30% 45px 30%
+  img
+    width: 100%
+    margin: 20px 0px
+  .double
+    display: grid
+    grid-template-columns: 1fr 1fr
+    column-gap: 10px
+
+.more
+  background-color: #f5f5f5
+  h3
+    text-align: center
+    font-size: 36px
+    line-height: 36px
+    margin: 10px 0px
+    font-weight: 700
+  .projects-grid
+    grid-template-columns: 1fr 1fr 1fr
+    column-gap: 10px
+    .project
+      background-color: white
+    .thumbnail
+      height: 125px
+    h3
+      margin: 10px
+      font-size: 24px
+      line-height: 28px
+      text-align: left
+      font-weight: 700
+    p
+      margin: 10px
+      font-size: 16px
+      line-height: 20px
+
+// 404 STYELS //
+
+.page-404
+  height: 100vh
+  width: 100vw
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  .links
+    margin: 25px 0px
+    a
+      margin: 0px 10px
+
+// FOOTER STYLES //
+
+.footer
+  padding: 25px 0px
+
+.footer .container
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-between
+  a
+    margin-left: 10px
