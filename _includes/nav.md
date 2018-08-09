@@ -5,7 +5,7 @@
     </span>
     <span class="links">
       <a href="/" {% if page.url == '/' %}class="active"{% endif %}>Work</a>
-      <a href="/perspectives/" {% if page.url == '/perspectives/' %}class="active"{% endif %}>Persepectives</a>
+      <a href="/assets/resume.pdf" target="_blank">Resume</a>
     </span>
   </div>
 </nav>
