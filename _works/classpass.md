@@ -16,7 +16,7 @@ brand-color: "#05f"
     </div>
     <div>
       <h3>My Role</h3>
-      <p>Design and Prototype</p>
+      <p>Lead Designer</p>
     </div>
     <div>
       <a class="btn disabled" style="background-color:{{ page.brand-color }};">See The Full Case</a>
@@ -25,7 +25,7 @@ brand-color: "#05f"
 </div>
 <div class="brief wrap" style="background-color:{{ page.brand-color }};">
   <div class="container">
-    <h1>The Feature Brief</h1>
+    <h1>Project Brief</h1>
     <p>
       ClassPass is looking to increase class bookings by its members to build a stronger community. They are exploring ways their users can motivate friends and family members to take a class together to increase social engagement on the platform.
     </p>
@@ -69,8 +69,14 @@ brand-color: "#05f"
           <li>Users have better results with direction</li>
           <li>Users want to avoid distraction</li>
         </ul>
-        <img src="/assets/projects/classpass/map2.jpg">
-        <img src="/assets/projects/classpass/map.jpg">
+        <div class="double">
+          <div>
+            <img src="/assets/projects/classpass/map2.jpg">
+          </div>
+          <div>
+            <img src="/assets/projects/classpass/map.jpg">
+          </div>
+        </div>
         <p>
           We now had a good idea of our users’ behaviors, and in being able to identify these patterns in our users, we began thinking about our two personas, Alice and Chester.
         </p>
@@ -144,16 +150,18 @@ brand-color: "#05f"
         <p>
           With a good idea of the features we were moving forward with (those that fell under must have categories) we created mid-fidelity wireframes and conducted six usability tests.
         </p>
-        <p>
-          Testers were asked to complete a few tasks within our prototype:
-        </p>
-        <ul>
-          <li>Check how many members are in the team and find who was least recently active</li>
-          <li>Send send a message to the community members</li>
-          <li>Share a class with your community</li>
-          <li>Claim the reward for your first achievement, then check to see how many more classes you need to attend to receive your next credit reward</li>
-        </ul>
         <div class="double">
+          <div>
+            <p>
+              Testers were asked to complete a few tasks within our prototype:
+            </p>
+            <ul>
+              <li>Check how many members are in the team and find who was least recently active</li>
+              <li>Send send a message to the community members</li>
+              <li>Share a class with your community</li>
+              <li>Claim the reward for your first achievement, then check to see how many more classes you need to attend to receive your next credit reward</li>
+            </ul>
+          </div>
           <div>
             <p>
               All users were able to complete the tasks with varying timing however as they thought aloud they provided insights into how easy the tasks were. Key findings include:
@@ -165,24 +173,22 @@ brand-color: "#05f"
               <li>4/6 users thought that the community page encouraged social engagement</li>
             </ul>
           </div>
-          <div>
-            <p>
-              From this and other insights we created a list of changes to make to the prototype:
-            </p>
-            <ul>
-              <li>Included ability to leave the team (common question among Users)</li>
-              <li>Changed the chat notification to a number (dot wasn’t noticeable enough for users)</li>
-              <li>Included team admin identification icon (Users wanted notification of who the team creator was)</li>
-              <li>Removed split banner with an image (Users did not know what this was)</li>
-              <li>Replaced ClassPass’s share icon with alternate icon (Icon did not fit with users traditional take on share icon)</li>
-              <li>Replaced original share pop-up with a new format (User had difficulty visualizing the flow)</li>
-              <li>Removed rewards feature (does not fit within our ‘social engagement’ objective)</li>
-              <li>Replace members bar with a segmented control bar (Number of members was not clear enough)</li>
-              <li>Updated the status bar information (Majority of users were not able to understand concept)</li>
-              <li>Created competition option (Added for social/motivation aspect)</li>
-            </ul>
-          </div>
         </div>
+        <p>
+          From this and other insights we created a list of changes to make to the prototype:
+        </p>
+        <ul>
+          <li>Included ability to leave the team (common question among Users)</li>
+          <li>Changed the chat notification to a number (dot wasn’t noticeable enough for users)</li>
+          <li>Included team admin identification icon (Users wanted notification of who the team creator was)</li>
+          <li>Removed split banner with an image (Users did not know what this was)</li>
+          <li>Replaced ClassPass’s share icon with alternate icon (Icon did not fit with users traditional take on share icon)</li>
+          <li>Replaced original share pop-up with a new format (User had difficulty visualizing the flow)</li>
+          <li>Removed rewards feature (does not fit within our ‘social engagement’ objective)</li>
+          <li>Replace members bar with a segmented control bar (Number of members was not clear enough)</li>
+          <li>Updated the status bar information (Majority of users were not able to understand concept)</li>
+          <li>Created competition option (Added for social/motivation aspect)</li>
+        </ul>
         <p>
           Another round of testing was conducted with five testers with new tasks.
         </p>
@@ -207,21 +213,21 @@ brand-color: "#05f"
           <li>Move share icon to ClassPass’s original location on class page screen</li>
           <li>Class page — visual that you already booked that class</li>
         </ul>
-        <div class="triple">
-          <div>
-            <img src="/assets/projects/classpass/screen4.jpg"/>
-          </div>
-          <div>
-            <img src="/assets/projects/classpass/screen2.jpg"/>
-          </div>
-          <div>
-            <img src="/assets/projects/classpass/screen3.jpg"/>
-          </div>
-        </div>
         <h3>Final Prototype</h3>
         <p>
           After these rounds of testing and iterations, we created our hi-fi prototype. Check it out and see if you can complete the  tasks!
         </p>
+        <div class="triple">
+          <div>
+            <img class="screen" src="/assets/projects/classpass/screen4.jpg"/>
+          </div>
+          <div>
+            <img class="screen" src="/assets/projects/classpass/screen2.jpg"/>
+          </div>
+          <div>
+            <img class="screen" src="/assets/projects/classpass/screen3.jpg"/>
+          </div>
+        </div>
         <a target="_blank" href="https://invis.io/HANBMMGD7EF" class="btn" style="background-color:{{ page.brand-color }}">InVision Prototype</a>
         <h3>Next Steps</h3>
         <p>

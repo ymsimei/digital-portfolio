@@ -16,7 +16,7 @@
   margin: 0px auto
   padding: 0px 10px
 
-h1, h2, h3, p, a
+h1, h2, h3, h4, p, a
   font-family: "Europa", sans-serif
   color: black
 
@@ -37,6 +37,12 @@ h3
   font-size: 28px
   line-height: 28px
   margin: 15px 0px
+  font-weight: 400
+
+h4
+  font-size: 22px
+  line-height: 22px
+  margin: 15px 0px 5px 0px
   font-weight: 400
 
 p
@@ -268,7 +274,8 @@ nav.opaque
   img
     width: 100%
     margin: 20px 0px
-    box-shadow: 0 15px 25px rgba(0,0,0,0.05)
+    &.screen
+      box-shadow: 0 15px 25px rgba(0,0,0,0.05)
   .double
     display: grid
     grid-template-columns: 1fr 1fr
