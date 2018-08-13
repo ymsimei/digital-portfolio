@@ -1,5 +1,5 @@
 {% include head.md %}
-<body id="body">
+<body>
   {% include nav.md %}
   <div class="about wrap">
     <div class="container">
