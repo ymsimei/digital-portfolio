@@ -240,12 +240,16 @@ nav.opaque
     line-height: 30px
     color: white
 
+.sticky
+  width: 100%
+
 .article .container .row
   display: grid
   grid-template-columns: 1fr 2fr
   column-gap: 20px
   grid-row-gap: 100px
   margin-top: 50px
+  margin-bottom: 150px
   h3
     margin-top: 30px
   h2
@@ -284,6 +288,14 @@ nav.opaque
     display: grid
     grid-template-columns: 1fr 1fr 1fr
     column-gap: 10px
+
+.article.wrap
+  background-color: #f5f5f5
+
+.article.wrap.sum
+  background-color: #fff
+  .row
+    column-gap: 70px
 
 .more
   background-color: #f5f5f5
@@ -337,3 +349,15 @@ nav.opaque
   justify-content: space-between
   a
     margin-left: 10px
+
+
+.about
+  margin-top: 100px
+  p
+    line-height: 24px
+  img
+    width: 100%
+  .container
+    display: grid
+    grid-template-columns: 1fr 2fr
+    column-gap: 20px

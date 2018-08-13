@@ -314,7 +314,7 @@ brand-color: "#6020d6"
             </ul>
           </div>
         </div>
-        <h4>Geolocation</h4>
+        <h4>Payment</h4>
         <div class="double">
           <div>
             <p>Purpose</p>

@@ -31,11 +31,36 @@ brand-color: "#05f"
     </p>
   </div>
 </div>
+<div class="article wrap sum">
+  <div class="container">
+    <div class="row">
+      <div>
+        <h1 style="color:{{ page.brand-color }}">Overview</h1>
+        <p>
+          Over the course of 2 weeks, myself and 2 other UX designers set out to integrate a new feature into ClassPass' mobile abbplication.
+          We started by researching the business and getting to know what users of ClassPass are like.
+        </p>
+        <p>
+          Afterwards, we validated our assumptions and insights by testing our design.
+          At the conclusion of our project we presented the process and design to date to be critiqued by fellow peers.
+        </p>
+      </div>
+      <div class="double">
+        <div>
+          <img src="/assets/projects/classpass/screen4.jpg">
+        </div>
+        <div>
+          <img src="/assets/projects/classpass/screen2.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="article wrap">
   <div class="container">
     <div class="row">
       <div>
-        <h2 class="sticky" style="color:{{ page.brand-color }}">Discovery and Research</h2>
+        <h2 style="color:{{ page.brand-color }}">Discovery and Research</h2>
       </div>
       <div>
         <h3>Screener Survey</h3>
