@@ -7,13 +7,6 @@ layout: project
 tags: [ux, desktop, design]
 brand-color: "#CF2339"
 ---
-<!--<div>
-      <h3>Research Findings</h3>
-    </div>
-    <div>
-
-
-</div> -->
 <div id="hero" style="background-image: url({{ page.thumbnail }});"></div>
 <div class="overview wrap">
   <div class="container">
@@ -34,7 +27,7 @@ brand-color: "#CF2339"
   <div class="container">
     <h1>The Feature Brief</h1>
     <p>
-      Walmart's responsive website is in need of some restructuring.
+      Walgreen's responsive website is in need of some restructuring.
       They are examining different ways to organize their information online and make it more like the in-store experience.
     </p>
   </div>

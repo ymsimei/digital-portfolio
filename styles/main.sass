@@ -65,6 +65,14 @@ hr
   width: 70px
   background-color: #fc0
 
+@keyframes fadeFallDown
+  from
+    top: -25px
+    opacity: 0
+  to
+    top: 0px
+    opacity: 1
+
 // NAV STYELS //
 
 nav
@@ -74,6 +82,7 @@ nav
   z-index: 2
   background-color: rgba(255,255,255,0)
   transition: all 0.3s ease-out
+  animation: fadeFallDown 1s ease-in-out
   .container
     display: flex
     flex-direction: row
@@ -115,26 +124,13 @@ nav.opaque
   h1
     display: inline-block
     margin: 15px 5px
-
-.swing
-  animation: swing 2s infinite
-
-@keyframes swing
-  20%
-    -webkit-transform: rotate3d(0, 0, 1, 15deg)
-    transform: rotate3d(0, 0, 1, 15deg)
-  40%
-    -webkit-transform: rotate3d(0, 0, 1, -10deg)
-    transform: rotate3d(0, 0, 1, -10deg)
-  60%
-    -webkit-transform: rotate3d(0, 0, 1, 5deg)
-    transform: rotate3d(0, 0, 1, 5deg)
-  80%
-    -webkit-transform: rotate3d(0, 0, 1, -5deg)
-    transform: rotate3d(0, 0, 1, -5deg)
-  to
-    -webkit-transform: rotate3d(0, 0, 1, 0deg)
-    transform: rotate3d(0, 0, 1, 0deg)
+  h1, h3
+    position: relative
+    opacity: 0
+    animation: fadeFallDown 1s ease-in-out forwards
+    animation-delay: 0.5s
+  h3
+    animation-delay: 2s
 
 // PROJECTS STYELS //
 
@@ -151,6 +147,9 @@ nav.opaque
     transition: all 0.3s ease-out
     height: 100%
     overflow: hidden
+    position: relative
+    opacity: 0
+    animation: fadeFallDown 0.5s ease-in-out forwards
     .thumbnail
       height: 200px
       background-size: cover
@@ -183,6 +182,10 @@ nav.opaque
     &:hover
       transform: translateY(-10px) scale(1.005) translateZ(0)
       box-shadow: 0 24px 36px rgba(75, 75, 75, .3)
+
+@for $i from 1 through 3
+  .project:nth-child(#{$i}n)
+    animation-delay: #{$i * 0.25 + 3}s
 
 // PROCESS STYLES //
 
@@ -340,6 +343,8 @@ nav.opaque
 
 .footer
   padding: 25px 0px
+  position: relative
+  animation: fadeFallDown 1s ease-in-out
 
 .footer .container
   display: flex
