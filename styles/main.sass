@@ -44,6 +44,7 @@ h4
   line-height: 22px
   margin: 15px 0px 5px 0px
   font-weight: 400
+  color: #555
 
 p
   font-family: "Europa", sans-serif
@@ -112,14 +113,11 @@ nav.opaque
 
 // HEADER STYLES //
 
-.header.wrap
-  height: 300px
-  margin-top: 60px
-  display: flex
-  flex-direction: column
-  align-items: center
-  justify-content: center
-  text-align: center
+.header .container
+  margin-top: 157px
+  margin-bottom: 100px
+  display: grid
+  grid-template-columns: 1fr 1fr
   h1
     display: inline-block
     margin: 15px 5px
@@ -174,6 +172,11 @@ nav.opaque
     &:hover
       transform: translateY(-10px) scale(1.005) translateZ(0)
       box-shadow: 0 24px 36px rgba(75, 75, 75, .3)
+
+// PROCESS STYLES //
+
+.cta .container
+  text-align: center
 
 // PROCESS STYLES //
 
