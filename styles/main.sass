@@ -82,7 +82,6 @@ nav
   z-index: 2
   background-color: rgba(255,255,255,0)
   transition: all 0.3s ease-out
-  animation: fadeFallDown 1s ease-in-out
   .container
     display: flex
     flex-direction: row
@@ -126,11 +125,6 @@ nav.opaque
     margin: 15px 5px
   h1, h3
     position: relative
-    opacity: 0
-    animation: fadeFallDown 1s ease-in-out forwards
-    animation-delay: 0.5s
-  h3
-    animation-delay: 2s
 
 // PROJECTS STYELS //
 
@@ -148,8 +142,6 @@ nav.opaque
     height: 100%
     overflow: hidden
     position: relative
-    opacity: 0
-    animation: fadeFallDown 0.5s ease-in-out forwards
     .thumbnail
       height: 200px
       background-size: cover
@@ -182,10 +174,6 @@ nav.opaque
     &:hover
       transform: translateY(-10px) scale(1.005) translateZ(0)
       box-shadow: 0 24px 36px rgba(75, 75, 75, .3)
-
-@for $i from 1 through 3
-  .project:nth-child(#{$i}n)
-    animation-delay: #{$i * 0.25 + 3}s
 
 // PROCESS STYLES //
 
@@ -344,7 +332,6 @@ nav.opaque
 .footer
   padding: 25px 0px
   position: relative
-  animation: fadeFallDown 1s ease-in-out
 
 .footer .container
   display: flex
