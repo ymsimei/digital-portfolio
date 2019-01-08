@@ -1,6 +1,6 @@
 <div class="footer wrap">
   <div class="container">
-    <p>© Antonio Mistretta 2018</p>
+    <p>© Antonio Mistretta 2018 - 2019</p>
     <span>
       <a href="https://github.com/ymsimei" target="_blank">GitHub</a>
       <a href="https://www.linkedin.com/in/antoniomistretta" target="_blank">LinkedIn</a>
