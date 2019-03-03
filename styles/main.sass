@@ -66,9 +66,6 @@ hr
   width: 70px
   background-color: #fc0
 
-.center
-  text-align: center
-
 @keyframes fadeFallDown
   from
     top: -25px
@@ -119,13 +116,10 @@ nav.opaque
 .header .container
   margin-top: 127px
   margin-bottom: 50px
-  display: grid
-  grid-template-columns: 3fr 2fr
-  h1
-    display: inline-block
-    margin: 15px 5px
   h1, h3
+    margin: 15px 5px
     position: relative
+    text-align: center
 
 // PROJECTS STYELS //
 
@@ -359,3 +353,9 @@ nav.opaque
     display: grid
     grid-template-columns: 1fr 2fr
     column-gap: 20px
+
+// MEDIA QUERIES //
+
+@media only screen and (max-width: 640px)
+  .projects-grid
+    grid-template-columns: 1fr
