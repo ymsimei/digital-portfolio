@@ -11,20 +11,24 @@
   </div>
   <div class="projects wrap">
     <div class="container">
+      <div class="filters">
+        <p>Filter:</p>
+        <input checked type="radio" name="filter" id="all" value="all">
+        <label onclick="filter('all')" for="all">All</label>
+        <input type="radio" name="filter" id="design" value="design">
+        <label onclick="filter('design')" for="design">UX Design</label>
+        <input type="radio" name="filter" id="code" value="code">
+        <label onclick="filter('code')" for="code">Web Development</label>
+      </div>
       <div class="projects-grid">
         {% for project in site.works %}
-          <a class="project" href="{{ project.permalink }}">
+          <a class="project {{ project.category }}" href="{{ project.permalink }}">
             <div class="project-card">
               <div class="thumbnail" style="background-image: url({{ project.thumbnail }})"></div>
               <span class="project-flex">
                 <span>
                   <h2>{{ project.title }}</h2>
                   <p>{{ project.description }}</p>
-                </span>
-                <span class="tags">
-                  {% for tag in project.tags %}
-                  <p>{{ tag }}</p>
-                  {% endfor %}
                 </span>
               </span>
             </div>
@@ -40,4 +44,5 @@
     </div>
   </div>
   {% include footer.html %}
+  <script src="/scripts/filter.js"></script>
 </body>

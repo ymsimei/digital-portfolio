@@ -4,7 +4,7 @@ description: "Redesigning a digital website feature to match the in-store experi
 permalink: /projects/walgreens/
 thumbnail: /assets/projects/walgreens/thumbnail.jpg
 layout: project
-tags: [ux, desktop, design]
+category: design
 brand-color: "#CF2339"
 ---
 <div id="hero" style="background-image: url({{ page.thumbnail }});"></div>

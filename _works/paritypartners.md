@@ -4,7 +4,7 @@ description: "Designing a website allowing members, leaders, and staff to form a
 permalink: /projects/paritypartners/
 thumbnail: /assets/projects/paritypartners/thumbnail.jpg
 layout: project
-tags: [ux, desktop, research]
+category: design
 brand-color: "#6020d6"
 ---
 <div id="hero" style="background-image: url({{ page.thumbnail }});"></div>

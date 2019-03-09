@@ -123,6 +123,27 @@ nav.opaque
 
 // PROJECTS STYELS //
 
+.filters
+  margin: 25px 0
+  text-align: center
+  transition: 200ms
+  p
+    display: inline
+  label
+    padding: 4px 12px
+    border-radius: 10px
+    border: 2px solid #fc0
+    font-family: "Europa", sans-serif
+    font-size: 18px
+    margin: 0px 3px
+    background-color: #fff
+    color: #000
+  input
+    display: none
+    &:checked + label
+      background-color: #fc0
+      color: #000
+
 .projects-grid
   display: grid
   grid-template-columns: repeat(2, 1fr)
@@ -132,6 +153,7 @@ nav.opaque
   a
     height: 100%
   .project
+    display: block
     border-radius: 15px
     box-shadow: 0 14px 26px rgba(0,0,0,0.05)
     transition: all 0.3s ease-out
@@ -157,37 +179,13 @@ nav.opaque
       line-height: 48px
     p
       margin: 20px
-      margin-bottom: 0px
       line-height: 28px
-    .tags
-      margin: 20px
-      p
-        display: inline-block
-        padding: 3px 8px
-        border-radius: 5px
-        border: 1px #fc0 solid
-        margin: 0 10px 0 0
     &:hover
       transform: translateY(-10px) scale(1.005) translateZ(0)
       box-shadow: 0 24px 36px rgba(75, 75, 75, .3)
 
-// PROCESS STYLES //
-
 .cta .container
   text-align: center
-
-// PROCESS STYLES //
-
-#process
-  margin-top: 150px
-  h1
-    text-align: center
-    margin-bottom: 25px
-  p
-    text-align: center
-  img
-    width: 100%
-    margin: 50px 0px
 
 // PROJECT STYLES //
 
@@ -359,3 +357,6 @@ nav.opaque
 @media only screen and (max-width: 640px)
   .projects-grid
     grid-template-columns: 1fr
+  .filters label
+    font-size: 15px
+    margin: 0px 3px

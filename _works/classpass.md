@@ -4,7 +4,7 @@ description: "Assessing opportunities for a mobile application and integrating t
 permalink: /projects/classpass/
 thumbnail: /assets/projects/classpass/thumbnail.jpg
 layout: project
-tags: [ux, mobile, design]
+category: design
 brand-color: "#05f"
 ---
 <div id="hero" style="background-image: url({{ page.thumbnail }});"></div>
